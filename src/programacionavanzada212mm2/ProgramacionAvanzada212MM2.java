@@ -30,12 +30,18 @@ public class ProgramacionAvanzada212MM2 {
         // "metodo constructor"
         // la palabra reservada new
         // instanciar un objeto / crear un objeto
-        Fecha hoy = new Fecha();
+        Fecha hoy = new Fecha(29, 7, 1987);
+        Fecha ayer = new Fecha();
+        ayer.anio = 1987;
         
         // depuración de codigo
-        
-        
-        
+        /*
+        Persona
+                identificar atributos que describen a la persona
+        Animal
+        Alumno
+        Profesor
+        */
         System.out.println("Hola mundo");
        
     }
