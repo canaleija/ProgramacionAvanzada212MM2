@@ -1,4 +1,4 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -31,9 +31,11 @@ public class ProgramacionAvanzada212MM2 {
         // la palabra reservada new
         // instanciar un objeto / crear un objeto
         Fecha hoy = new Fecha(29, 7, 1987);
-        Fecha ayer = new Fecha();
-        ayer.anio = 1987;
         
+        Fecha ayer = new Fecha();
+        ayer.setDia(12);
+        ayer.setMes(11);
+        System.out.println(ayer.getDia());
         // depuración de codigo
         /*
         Persona
@@ -44,6 +46,10 @@ public class ProgramacionAvanzada212MM2 {
         */
         System.out.println("Hola mundo");
        
+        
+        // 12 clases diferentes
+        // 2 constructores (defecto/ mandan todo)
+        // atributos privados con sus metodos de encapsulamiento
     }
     
 }
