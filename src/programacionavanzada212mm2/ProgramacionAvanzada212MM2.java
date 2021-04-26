@@ -5,7 +5,7 @@
  */
 package programacionavanzada212mm2;
 
-import poo.Fecha;
+import poo.Alumno;
 
 /**
  *
@@ -17,39 +17,33 @@ public class ProgramacionAvanzada212MM2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // la clases me permiten crear nuevos tipos de datos
-        // tipo de dato / identificador
-        // la clase tambien me permite crear tipos de datos (estructura)
-        // 29/03/2021 ¿variable?
-        int g = 23;
-        double h =1.5;
-        char n = 'v';
-        float t = 7;
-        // crear un objeto y asignarlo a "hoy"
-        // para poder crear objetos se tiene que ejecutar un metodo especial llamado 
-        // "metodo constructor"
-        // la palabra reservada new
-        // instanciar un objeto / crear un objeto
-        Fecha hoy = new Fecha(29, 7, 1987);
+//       
+//        int g = 23;
+//        double h =1.5;
+//        char n = 'v';
+//        float t = 7;
+//       
+//        Fecha hoy = new Fecha(29, 7, 1987);
+//        
+//        Fecha ayer = new Fecha();
+//        ayer.setDia(12);
+//        ayer.setMes(11);
+//        System.out.println(ayer.getDia());
         
-        Fecha ayer = new Fecha();
-        ayer.setDia(12);
-        ayer.setMes(11);
-        System.out.println(ayer.getDia());
-        // depuración de codigo
-        /*
-        Persona
-                identificar atributos que describen a la persona
-        Animal
-        Alumno
-        Profesor
-        */
-        System.out.println("Hola mundo");
+        // ¿Herencia? Java
+        // Objeto herede(atributos y comportamientos)a otro objeto
+        // optimizar codigo(programar de mas)
+        // clase padre que hereda a sus hijos ( tipos de herencias) Simple / multiple
+        
+        
        
-        
-        // 12 clases diferentes
-        // 2 constructores (defecto/ mandan todo)
-        // atributos privados con sus metodos de encapsulamiento
+//        System.out.println("Hola mundo");
+       
+        Alumno juan = new Alumno();
+        juan.setSemestre(8);
+        juan.setNombre("Juan Ramiro Maximiliano");
+        System.out.println();
+       
     }
     
 }
