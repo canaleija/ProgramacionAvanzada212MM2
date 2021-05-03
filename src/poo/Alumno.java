@@ -24,7 +24,12 @@ public class Alumno extends Persona {
         super(nombre, edad, dom, sexo);
         this.semestre = semestre;       
     }
-
+    
+    public void saluda(){
+        System.out.println("Hola!, mi nombre es "+super.getNombre()+" y soy alumno.");
+    }
+         
+    
     /**
      * @return the semestre
      */

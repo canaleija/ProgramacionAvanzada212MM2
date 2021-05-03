@@ -39,9 +39,14 @@ public class ProgramacionAvanzada212MM2 {
        
 //        System.out.println("Hola mundo");
        
-        Alumno juan = new Alumno();
+        Alumno juan = new Alumno();// una instancia de un objeto de tipo Alumno
         juan.setSemestre(8);
         juan.setNombre("Juan Ramiro Maximiliano");
+        juan.saluda();
+        
+        // sobre escritura de metodos y sobrecarga
+        
+        // que los objetos se comportan como se construyen
         System.out.println();
        
     }

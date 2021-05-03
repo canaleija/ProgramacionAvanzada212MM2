@@ -30,6 +30,15 @@ public class Persona  {
         this.dom = dom;
         this.sexo = sexo;
     }
+    
+    public void saluda(){
+        System.out.println("Hola!, mi nombre es "+this.nombre);
+    }
+    
+    public void saluda(String persona){
+         System.out.println("Hola "+persona+"!, mi nombre es "+this.nombre);
+    }
+    
 
     /**
      * @return the nombre
