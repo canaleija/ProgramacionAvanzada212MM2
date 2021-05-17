@@ -5,6 +5,7 @@
  */
 package programacionavanzada212mm2;
 
+import gui.JFramePrincipalC;
 import poo.Alumno;
 
 /**
@@ -35,18 +36,22 @@ public class ProgramacionAvanzada212MM2 {
         // optimizar codigo(programar de mas)
         // clase padre que hereda a sus hijos ( tipos de herencias) Simple / multiple
         
+        JFramePrincipalC aux = new JFramePrincipalC();
+        aux.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        aux.setSize(350, 150);
+        aux.setVisible(true);
         
        
 //        System.out.println("Hola mundo");
        
-        Alumno juan = new Alumno();// una instancia de un objeto de tipo Alumno
-        juan.setSemestre(8);
-        juan.setNombre("Juan Ramiro Maximiliano");
-        juan.saluda();
-        
-        // sobre escritura de metodos y sobrecarga
-        
-        // que los objetos se comportan como se construyen
+//        Alumno juan = new Alumno();// una instancia de un objeto de tipo Alumno
+//        juan.setSemestre(8);
+//        juan.setNombre("Juan Ramiro Maximiliano");
+//        juan.saluda();
+//        
+//        // sobre escritura de metodos y sobrecarga
+//        
+//        // que los objetos se comportan como se construyen
         System.out.println();
        
     }
